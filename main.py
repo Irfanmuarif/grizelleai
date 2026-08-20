@@ -23,8 +23,8 @@ def run_web_server():
 # ==========================================
 # 2. KONFIGURASI API KEY & MODEL GEMINI
 # ==========================================
-TELEGRAM_TOKEN = os.getenv("8353700147:AAEGMKN0gPUGXQz4BAgb4IsoYGRKAo1S55U")
-GEMINI_API_KEY = os.getenv("AQ.Ab8RN6LG4QhMK9uw_bqCCcZ7Gh9D2wPsoK7bElgFbLwLqaMKdA")
+TELEGRAM_TOKEN = os.getenv("TELEGRAM_TOKEN")
+GEMINI_API_KEY = os.getenv("GEMINI_API_KEY")
 
 if GEMINI_API_KEY:
     genai.configure(api_key=GEMINI_API_KEY)
